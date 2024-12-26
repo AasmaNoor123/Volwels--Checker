@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+  <title>Vowel Checker</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Vowel Checker</h1>
+    <br><br>
+    <input type="text" id="inputText" placeholder="Enter some text here..... " />
+    <br><br>
+    <button id="check" onclick="checkVowels()" >Check Vowels</button>
+<br>
+    <!-- <button class="restart" id="Clear">Clear</button> -->
+
+    <!-- Clear button -->
+    <button id="btn" onclick="refresh()" class="btn">Clear</button>
+
+  <br><br>
+   
+    <div id="error" class="error"></div>
+    <br>
+    <div id="result" class="result"></div>
+  </div> 
+ 
+
+
+  <!-- Extra -->
+ <!-- Element to be removed on click
+        <button onclick="this.remove()">Click me to remove</button> -->
+
+
+  <script src="./script.js"></script>
+</body>
+</html>
